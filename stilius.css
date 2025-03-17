@@ -1,0 +1,31 @@
+h1 {
+    color: white;
+    background-color: black;
+}
+
+h3 {
+    color: white;
+    background-color: rgb(116, 198, 245);
+}
+
+
+a {
+    color: red;
+}
+
+.uzduotis {
+    background-color: rgb(230, 222, 222);
+}
+
+.paslauga {
+    background-color: white;
+}
+
+ul {
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.apie {
+    color: white;
+    background-color: rgb(116, 198, 245);
+}
