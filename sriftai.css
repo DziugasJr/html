@@ -1,0 +1,14 @@
+h1{font-family: Arial, Helvetica, sans-serif; font-style: oblique; }
+h2{font-family: 'Courier New', Courier, monospace;font-style: italic; }
+p{font-family: 'Times New Roman', Times, serifs; font-style: italic; }
+.belekas{ color: white;  background-color: black; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-style: italic; font-size: 25px; }
+
+.tekstas-didelis{font-size: 50px; font-style: italic; font-weight: normal; }
+.tekstas-perbrauktas{text-decoration: line-through;}
+
+.tekstas-pabrauktas{text-decoration: underline; }
+
+.lygiavimas-centre{ text-align: center; }
+.lygiavimas-desineje{ text-align: right; }
+
+.antraste{text-transform: uppercase;}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uzduotele</title>
+    <style>
+        body { 
+            background-color: rgb(255, 255, 255);
+            font-family: Arial, Helvetica, sans-serif;
+
+            align-items: center;
+        }
+
+        table { 
+            border: solid grey;
+            border-width: 3px;
+            text-align: left;
+            width: 900px;
+
+            height: 10px;
+            border-collapse: collapse;
+        }
+
+        td { 
+            font-family: Arial, Helvetica, sans-serif;
+            border: 1px rgb(220, 220, 220);
+            padding: 20px;
+            height: 10px;
+
+        }
+
+        .thd {
+            background-color: rgb(220, 220, 220);
+        }
+
+.inv{color: blue;
+text-align:left;
+font-weight:lighter;  
+}
+
+.span{border: 1px solid red;
+    padding: 5px;
+background-color: rgb(211, 167, 167);
+
+}
+
+
+    </style>
+
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <td>INVOICE</td>
+                <td>COMPANY</td>
+                <td>DUE DATE</td>
+                <td>STATUS</td>
+                <td>AMOUNT</td>
+            </tr>
+
+        </thead>
+        <table>
+            <thead>
+                <tr>
+                    <td class="inv">INV_1001</td>
+                    <td style="text-align: left;" >Paragon</td>
+                    <td>1/5/20/21</td>
+                    <td> <span class="span">Upaid</span></td>
+                    <td>$520.18</td>
+                </tr>
+
+            </thead>
+
+        </table>
+
+        <table border="1" >
+            <thead class="thd">
+                <tr>
+                    <td class="inv">INV_1002</td>
+                    <td style="text-align: left;" >Sonic</td>
+                    <td>1/4/2021</td>
+                    <td style="text-align: left;" >Paid</td>
+                    <td>$415.25</td>
+
+                </tr>
+            </thead>
+        </table>
+
+        <table>
+            <thead>
+                <tr>
+                    <td class="inv">INV_1003</td>
+                    <td>Innercircle</td>
+                    <td>1/2/2020</td>
+                    <td style="text-align: left;" >Pending</td>
+                    <td>$1324.84</td>
+                </tr>
+
+            </thead>
+
+        </table>
+
+        <table>
+            <thead class="thd">
+                <tr>
+                    <td class="inv">INV_1004</td>
+                    <td>Varsity Plus</td>
+                    <td>12/30/2020</td>
+                    <td style="text-align: left;" >Pending</td>
+                    <td>$998.26</td>
+                </tr>
+            </thead>
+        </table>
+        <table>
+            <thead>
+                <tr>
+                    <td class="inv" >INV_1005</td>
+                    <td>Highlander</td>
+                    <td>12/18/2020</td>
+                    <td>Paid</td>
+                    <td>$1152.35</td>
+            </thead>
+        </table>
+
+
+</body>
+
+</html>
